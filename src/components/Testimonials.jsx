@@ -95,8 +95,8 @@ const Testimonials = () => {
       {
         id: 12,
         initials: 'HC',
-        name: 'Customer Service.',
-        role: 'Birthday Celebration',
+        name: 'Hannah C.',
+        role: 'Customer Service',
         quote: "The service at Pitaziki was fantastic! The staff was so friendly and took the time to help me pick out the best toppings for my shawarma wrap. They made the whole experience enjoyable, and the food was absolutely delicious. I’ll definitely be back!",
         stars: 5
       },
