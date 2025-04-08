@@ -4,13 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Testimonials from './components/Testimonials';
 import Home from './components/Home';
+import Services from './components/Services';
 
 function App() {
   return (
     <div className="font-sans text-white bg-[#FFFFFF] min-h-screen w-full overflow-x-hidden">
       
       <Home />
-      
+
     // Our Story Section
 
       <section className="bg-white py-20 px-4 sm:px-8">
@@ -83,68 +84,7 @@ function App() {
 
 // Services Section
 
-<section className="bg-gray-50 py-16 px-4 sm:px-8">
-  <div className="max-w-6xl mx-auto">
-    {/* Section Header */}
-    <div className="text-center mb-12">
-      <h2 className="text-3xl md:text-4xl font-light text-gray-800 mb-2">
-         SERVICES
-      </h2>
-      <p className="text-lime-600 italic">Mediterranean flavors for your special day</p>
-      <div className="w-24 h-0.5 bg-lime-400 mx-auto mt-4"></div>
-    </div>
-
-    {/* Service Cards Grid */}
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {/* Wedding Package Card */}
-      <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-        <div className="relative h-48 overflow-hidden">
-          <img
-            src="/wedding-foodtruck.jpg"  // Replace with your image
-            alt="Food truck at a wedding"
-            className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/30 to-transparent"></div>
-          <span className="absolute top-4 right-4 bg-lime-500 text-white text-xs font-bold px-3 py-1 rounded-full">
-            POPULAR
-          </span>
-        </div>
-        <div className="p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-2">Wedding Feast Package</h3>
-          <p className="text-gray-600 mb-4">
-            Customizable Mediterranean buffet for 50-200 guests, served fresh from our truck.
-          </p>
-          <ul className="space-y-2 mb-6">
-            <li className="flex items-start">
-              <span className="text-lime-500 mr-2">✓</span>
-              <span className="text-gray-600">Falafel, shawarma, mezze stations</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-lime-500 mr-2">✓</span>
-              <span className="text-gray-600">Late-night pita snack service</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-lime-500 mr-2">✓</span>
-              <span className="text-gray-600">Vegan/GF options included</span>
-            </li>
-          </ul>
-          <button className="w-full bg-lime-500 hover:bg-lime-600 text-white py-2 rounded-lg font-medium transition-colors duration-200">
-            Inquire Now
-          </button>
-        </div>
-      </div>
-
-      {/* Add other service cards below */}
-      <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-        {/* Cocktail Hour Package */}
-      </div>
-      <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-        {/* Rehearsal Dinner Package */}
-      </div>
-    </div>
-  </div>
-</section>
-
+<Services/>
 
 <Testimonials />
 
