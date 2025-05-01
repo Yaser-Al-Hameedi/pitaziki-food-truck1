@@ -95,7 +95,8 @@ const Services = () => {
         </div>
 
 
-        {/* Food Truck Services Header */}
+      
+        {/* Food Truck Services */}
         <div className="text-center mb-12">
           <h2 className="text-3xl font-light text-gray-900 mb-2 tracking-wider">FOOD TRUCK SERVICES</h2>
           <p className="text-gray-600 italic">Perfect for corporate events, parties, and private gatherings</p>
@@ -104,16 +105,12 @@ const Services = () => {
 
         {/* Horizontal Scrolling Container */}
         <div className="relative">
-          {/* Pricing Cards - Horizontal Scroll */}
           <div className="flex space-x-8 pb-6 overflow-x-auto scrollbar-hide">
-            {/* Pricing Card 1 */}
+            
+            {/* Card 1 - Up to 50 Guests */}
             <div className="flex-shrink-0 w-96 bg-white shadow-sm border border-gray-200 overflow-hidden">
               <div className="relative h-64 w-full">
-                <img
-                  src="/foodtruck-event1.jpg"
-                  alt="Food truck catering"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/foodtruck-event1.jpg" alt="Event catering" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent"></div>
               </div>
               <div className="p-6">
@@ -121,9 +118,10 @@ const Services = () => {
                   <h3 className="text-xl font-semibold text-gray-900">Up to 50 Guests</h3>
                   <p className="text-xl font-semibold text-gray-800">$1,355.96</p>
                 </div>
-                <div className="space-y-2 mb-6">
+                <div className="space-y-3 mb-6">
                   <p className="text-gray-600"><strong>Staff:</strong> 1-2 servers</p>
                   <p className="text-gray-600"><strong>Lunch:</strong> 11:30AM - 3:30PM</p>
+                  <p className="text-gray-400 text-center">or</p>
                   <p className="text-gray-600"><strong>Dinner:</strong> 5:30PM - 9:00PM</p>
                 </div>
                 <button className="w-full shadow-sm border border-black bg-white hover:bg-gray-100 text-black py-3 font-medium transition-colors">
@@ -132,14 +130,10 @@ const Services = () => {
               </div>
             </div>
 
-            {/* Pricing Card 2 */}
+            {/* Card 2 - 50-75 Guests (Popular) */}
             <div className="flex-shrink-0 w-96 bg-white shadow-sm border border-gray-200 overflow-hidden">
               <div className="relative h-64 w-full">
-                <img
-                  src="/foodtruck-event2.jpg"
-                  alt="Food truck catering"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/foodtruck-event2.jpg" alt="Event catering" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent"></div>
                 <span className="absolute top-4 right-4 bg-lime-500 text-white text-xs font-medium px-3 py-1">
                   POPULAR
@@ -150,9 +144,10 @@ const Services = () => {
                   <h3 className="text-xl font-semibold text-gray-900">50-75 Guests</h3>
                   <p className="text-xl font-semibold text-gray-800">$1,676.01</p>
                 </div>
-                <div className="space-y-2 mb-6">
+                <div className="space-y-3 mb-6">
                   <p className="text-gray-600"><strong>Staff:</strong> 1-2 servers</p>
                   <p className="text-gray-600"><strong>Lunch:</strong> 11:30AM - 3:30PM</p>
+                  <p className="text-gray-400 text-center">or</p>
                   <p className="text-gray-600"><strong>Dinner:</strong> 5:30PM - 9:00PM</p>
                 </div>
                 <button className="w-full shadow-sm border border-black bg-white hover:bg-gray-100 text-black py-3 font-medium transition-colors">
@@ -161,14 +156,10 @@ const Services = () => {
               </div>
             </div>
 
-            {/* Pricing Card 3 */}
+            {/* Card 3 - 75-100 Guests */}
             <div className="flex-shrink-0 w-96 bg-white shadow-sm border border-gray-200 overflow-hidden">
               <div className="relative h-64 w-full">
-                <img
-                  src="/foodtruck-event3.jpg"
-                  alt="Food truck catering"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/foodtruck-event3.jpg" alt="Event catering" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent"></div>
               </div>
               <div className="p-6">
@@ -176,9 +167,10 @@ const Services = () => {
                   <h3 className="text-xl font-semibold text-gray-900">75-100 Guests</h3>
                   <p className="text-xl font-semibold text-gray-800">$2,100.01</p>
                 </div>
-                <div className="space-y-2 mb-6">
+                <div className="space-y-3 mb-6">
                   <p className="text-gray-600"><strong>Staff:</strong> 1-2 servers</p>
                   <p className="text-gray-600"><strong>Lunch:</strong> 11:30AM - 3:30PM</p>
+                  <p className="text-gray-400 text-center">or</p>
                   <p className="text-gray-600"><strong>Dinner:</strong> 5:30PM - 9:00PM</p>
                 </div>
                 <button className="w-full shadow-sm border border-black bg-white hover:bg-gray-100 text-black py-3 font-medium transition-colors">
@@ -187,14 +179,10 @@ const Services = () => {
               </div>
             </div>
 
-            {/* Pricing Card 4 */}
+            {/* Card 4 - 100-125 Guests */}
             <div className="flex-shrink-0 w-96 bg-white shadow-sm border border-gray-200 overflow-hidden">
               <div className="relative h-64 w-full">
-                <img
-                  src="/foodtruck-event4.jpg"
-                  alt="Food truck catering"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/foodtruck-event4.jpg" alt="Event catering" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent"></div>
               </div>
               <div className="p-6">
@@ -202,9 +190,10 @@ const Services = () => {
                   <h3 className="text-xl font-semibold text-gray-900">100-125 Guests</h3>
                   <p className="text-xl font-semibold text-gray-800">$2,419.46</p>
                 </div>
-                <div className="space-y-2 mb-6">
+                <div className="space-y-3 mb-6">
                   <p className="text-gray-600"><strong>Staff:</strong> 2-3 servers</p>
                   <p className="text-gray-600"><strong>Lunch:</strong> 11:30AM - 3:30PM</p>
+                  <p className="text-gray-400 text-center">or</p>
                   <p className="text-gray-600"><strong>Dinner:</strong> 5:30PM - 9:00PM</p>
                 </div>
                 <button className="w-full shadow-sm border border-black bg-white hover:bg-gray-100 text-black py-3 font-medium transition-colors">
@@ -213,14 +202,10 @@ const Services = () => {
               </div>
             </div>
 
-            {/* Pricing Card 5 */}
+            {/* Card 5 - 125-150 Guests */}
             <div className="flex-shrink-0 w-96 bg-white shadow-sm border border-gray-200 overflow-hidden">
               <div className="relative h-64 w-full">
-                <img
-                  src="/foodtruck-event5.jpg"
-                  alt="Food truck catering"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/foodtruck-event5.jpg" alt="Event catering" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent"></div>
               </div>
               <div className="p-6">
@@ -228,9 +213,10 @@ const Services = () => {
                   <h3 className="text-xl font-semibold text-gray-900">125-150 Guests</h3>
                   <p className="text-xl font-semibold text-gray-800">$2,924.63</p>
                 </div>
-                <div className="space-y-2 mb-6">
+                <div className="space-y-3 mb-6">
                   <p className="text-gray-600"><strong>Staff:</strong> 2-3 servers</p>
                   <p className="text-gray-600"><strong>Lunch:</strong> 11:30AM - 3:30PM</p>
+                  <p className="text-gray-400 text-center">or</p>
                   <p className="text-gray-600"><strong>Dinner:</strong> 5:30PM - 9:00PM</p>
                 </div>
                 <button className="w-full shadow-sm border border-black bg-white hover:bg-gray-100 text-black py-3 font-medium transition-colors">
